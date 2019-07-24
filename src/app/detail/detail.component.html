@@ -1,0 +1,17 @@
+<button (click)="display(0)">Song 1</button>
+<button (click)="display(1)">Song 2</button>
+<button (click)="display(2)">Song 3</button>
+<button (click)="display(3)">Song 4</button>
+<br><br>
+<section class="gridArea">
+ <div class="listArea" style="border: 1px solid black">   
+<p>{{songname}}</p>
+<p>{{aname}}</p>
+<p>{{yreleased}}</p>
+<p>{{genre}}</p>
+</div>
+<div class="imgArea" style="border: 1px solid black">
+<img [src]="image" height="350px" width="500px">
+
+</div>
+</section>
